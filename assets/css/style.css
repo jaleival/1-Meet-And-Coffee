@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    text-align: center;
+    color: #000f08;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 4px;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 32px;
+  }
+  
+  h4 {
+    font-size: 1.75em;
+  }
+  
+  h5 {
+    font-size: 1.25em;
+  }
+  
+  .subtitulo, h4, h5 {
+    font-weight: 400;
+  }
+  
+  #ubicacion h2 {
+    margin: 1em auto;
+  }
+  
+  .sweet-brown h3, .sweet-brown h5 {
+    margin-bottom: 0.5em;
+  }
+  
+  #eventos h2 {
+    margin-bottom: 1em;
+    
+  }
+  .evento a{
+    text-decoration: none;
+    
+  }
+   .evento a:visited {
+    color: #272727;
+  
+  }
+  
+  .contenido{
+    padding-top: 150px;
+    padding-bottom: 40px;
+    width: 75%;
+    margin: 0em auto;
+    align-content: center;
+  
+  
+  }
+  .contenido img{
+    max-width: 75%;
+    height: auto;
+    padding-bottom: 60px;
+    
+  
+  }
+  
+  .contenido h2{
+    padding-bottom: 40px;
+    width: 75%;
+    margin: 0em auto;
+    text-align: left;
+    
+  }
+  .contenido p{
+    width: 75%;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: left; 
+    margin: 0em auto;
+    padding-bottom: 20px;
+   
+  }
+  .contenido h2:last-of-type {
+    padding-top: 30px;
+  }
+  
+  
+  
+  #eventos h3 {
+    margin: 1em auto;
+    text-decoration: none;
+  }
+  
+  .oscuro {
+    background: #000f08;
+    color: #ffffff;
+  }
+  
+  .oscuro a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  
+  .sweet-brown {
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+    padding: 3.125rem;
+    white-space: nowrap;
+  }
+  
+  .hero-section {
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding: 6.25rem 3.125rem;
+  }
+  
+  section, footer {
+    margin-top: 4.5rem;
+  }
+  #page1 {
+    margin-top: 0rem;
+  
+  }
+  
+  footer {
+    padding: 3.125rem;
+  }
+  
+  .centrado {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .charla-speaker, .charla-texto, .evento {
+    display: inline-block;
+  }
+  
+  .charla-speaker{
+    width: 25%;
+    vertical-align: middle;
+  }
+  
+  .charla-texto  {
+    width: 72.5%;
+    vertical-align: middle;
+    margin-left: 2.5%;
+    white-space: normal;
+  }
+  
+  .evento {
+    width: 30%;
+  }
+  
+  .evento img {
+    width: 75%;
+  }
+  
+  nav {
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+  }
+  
+  .icono {
+    width: 2rem;
+  }
+  
+  .icono svg {
+    fill: #ffffff;
+  }
+  
+  footer i {
+    margin: 0 0.25em 0.5em 0.25em;
+  }
+       
